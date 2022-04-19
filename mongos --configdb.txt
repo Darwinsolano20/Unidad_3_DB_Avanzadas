@@ -1,0 +1,16 @@
+Microsoft Windows [Versión 10.0.19044.1645]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Administrador>mongos --configdb configrs/127.0.0.1:26050,127.0.0.1:26051,127.0.0.1:26052 mongos1
+Error parsing command line: too many positional options have been specified on the command line
+try 'mongos --help' for more information
+
+C:\Users\Administrador>mongos --configdb configrs/127.0.0.1:26050,127.0.0.1:26051,127.0.0.1:26052 --logpath mongos1
+
+
+
+
+
+
+
+

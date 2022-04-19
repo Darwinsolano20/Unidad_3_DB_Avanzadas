@@ -1,0 +1,33 @@
+Microsoft Windows [Versión 10.0.19044.1645]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\Administrador>mongo
+MongoDB shell version v4.0.28
+connecting to: mongodb://127.0.0.1:27017/?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("b6c756b5-b17e-436c-bf61-82a33c390423") }
+MongoDB server version: 4.0.28
+Server has startup warnings:
+2022-04-17T13:50:53.768-0500 I CONTROL  [initandlisten]
+2022-04-17T13:50:53.768-0500 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2022-04-17T13:50:53.768-0500 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2022-04-17T13:50:53.768-0500 I CONTROL  [initandlisten]
+---
+Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+and anyone you share the URL with. MongoDB may use this information to make product
+improvements and to suggest MongoDB products and deployment options to you.
+
+To enable free monitoring, run the following command: db.enableFreeMonitoring()
+To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+
+> sh.addShard("p1/127.0.0.1:27100")
+{
+        "ok" : 0,
+        "errmsg" : "no such command: 'addShard'",
+        "code" : 59,
+        "codeName" : "CommandNotFound"
+}
+>
